@@ -109,7 +109,7 @@ public class Policy {
             price = price + 75.00;
          }
          
-         if ( policyholdersSmokingStat.equals("Smoker") || policyholdersSmokingStat.equals("smoker")) { 
+         if ( policyholdersSmokingStat.equalsIgnoreCase("Smoker")) { 
             price = price + 100.00;
          }
          
