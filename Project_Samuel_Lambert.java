@@ -24,7 +24,7 @@ public class Project_Samuel_Lambert {
    
    System.out.println("Please enter the Policyholder’s Smoking Status (smoker/non-smoker):");
    String policyholdersSmokingStat = scanner.nextLine();
-   scanner.nextLine();
+   
    
    System.out.println("Please enter the Policyholder’s Height (in inches): ");
    double policyholdersHeight = scanner.nextDouble();
