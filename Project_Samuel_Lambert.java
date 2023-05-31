@@ -44,7 +44,7 @@ public class Project_Samuel_Lambert {
    System.out.println("Policyholder’s Smoking Status: " + newPolicy.getPolicyholdersSmokingStat());
    System.out.println("Policyholder’s Height: " + newPolicy.getPolicyholdersHeight());
    System.out.println("Policyholder’s Weight: " + newPolicy.getPolicyholdersWeightt());
-   System.out.println("Policyholder’s BMI: " + newPolicy.BMICalc());
-   System.out.println("Policy Price: $" + newPolicy.calcualtePrice());
+   System.out.printf("Policyholder’s BMI: $%.2f%n",  newPolicy.BMICalc());
+   System.out.printf("Policy Price: $%.2f%n", newPolicy.calcualtePrice());
    }
 }
