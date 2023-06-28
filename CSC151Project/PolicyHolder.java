@@ -34,35 +34,35 @@ public class PolicyHolder {
          
       }
       
-      public String getPolicyNumber() {
+      public static String getPolicyNumber() {
       return policyNumber;
       }
       
-      public String getProviderName() {
+      public static String getProviderName() {
       return providerName;
       }
       
-      public String getPolicyholderFirstName() {
+      public static String getPolicyholderFirstName() {
       return policyholderFirstName;
       }
       
-      public String getPolicyholderLastName() {
+      public static String getPolicyholderLastName() {
       return policyholderLastName;
       }
       
-      public int getPolicyholdersAge() {
+      public static int getPolicyholdersAge() {
       return policyholdersAge;
       }
       
-      public String getPolicyholdersSmokingStat() {
+      public static String getPolicyholdersSmokingStat() {
       return policyholdersSmokingStat;
       }
       
-      public double getPolicyholdersHeight() {
+      public static double getPolicyholdersHeight() {
       return policyholdersHeight;
       }
       
-      public double getPolicyholdersWeightt() {
+      public static double getPolicyholdersWeightt() {
       return policyholdersWeight;
       }
       
