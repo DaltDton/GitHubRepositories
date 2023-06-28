@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Policy {
+public class Policy{
 //fields
    private String policyNumber;
    private String providerName;

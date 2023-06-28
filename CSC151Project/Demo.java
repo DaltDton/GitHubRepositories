@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Demo{
 
-   public static void main (String args[]) throws IOException {
+   public static void main (String args[]) throws IOException{
         PolicyHolder policyHolder1 = new PolicyHolder("Alice", "Jones", 20, "smoker", 65.0, 110.0);
         Policy policy1 = new Policy("3450", "State Farm", policyHolder1);
         System.out.println(policy1);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PolicyHolder {
+public class PolicyHolder{
 
    //fields
    private String policyholderFirstName;
