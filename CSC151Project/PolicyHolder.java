@@ -98,7 +98,7 @@ public class PolicyHolder {
       this.policyholdersWeight = policyholdersWeight;
       }    
       
-      public double BMICalc (){
+      public double BMICalc(){
       return (policyholdersWeight * 703) / (policyholdersHeight * policyholdersHeight);
       }
       
@@ -121,6 +121,16 @@ public class PolicyHolder {
          
          return price;
       }
+      
+      public String toString() {
+        return "Policyholder's First Name: " + policyholderFirstName + "\n" +
+                "Policyholder's Last Name: " + policyholderLastName + "\n" +
+                "Policyholder's Age: " + policyholdersAge + "\n" +
+                "Policyholder's Smoking Status (Y/N): " + policyholdersSmokingStat + "\n" +
+                "Policyholder's Height: " + policyholdersHeight + " inches\n" +
+                "Policyholder's Weight: " + policyholdersWeight + " pounds\n" +
+                "Policyholder's BMI: " + BMICalc() + "\n";
+    }
       
       
 }
